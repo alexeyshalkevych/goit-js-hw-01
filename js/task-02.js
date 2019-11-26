@@ -14,8 +14,8 @@
   например 20, 80 и 130.
 */
 
-const total = 100;
-const ordered = 130;
+let total = 100;
+let ordered = 130;
 
 ordered > total
   ? console.log("На складе недостаточно твоаров!")
