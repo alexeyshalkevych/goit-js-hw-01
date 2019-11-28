@@ -17,6 +17,8 @@
 let total = 100;
 let ordered = 130;
 
-ordered > total
-  ? console.log("На складе недостаточно товаров!")
-  : console.log("Заказ оформлен, с вами свяжется менеджер");
+if (ordered > total) {
+  console.log("На складе недостаточно товаров!");
+} else {
+  console.log("Заказ оформлен, с вами свяжется менеджер");
+}
