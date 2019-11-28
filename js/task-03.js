@@ -27,11 +27,4 @@ if (enterPassword === null) {
   message = "Доступ запрещен, неверный пароль!";
 }
 
-message =
-  enterPassword === null
-    ? "Отменено пользователем!"
-    : enterPassword === ADMIN_PASSWORD
-    ? "Добро пожаловать!"
-    : "Доступ запрещен, неверный пароль!";
-
 alert(message);
