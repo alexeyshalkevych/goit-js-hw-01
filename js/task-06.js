@@ -21,11 +21,11 @@ let total = 0;
 
 do {
   input = prompt("Введите число");
-
-  if (Number.isNaN(input)) {
+  const convertToNumber = Number(input);
+  if (Number.isNaN(convertToNumber)) {
     alert("Было введено не число, попробуйте еще раз");
   } else {
-    total += Number(input);
+    total += convertToNumber;
   }
 } while (input !== null);
 
